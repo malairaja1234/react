@@ -1,0 +1,48 @@
+h2
+{
+    color: red;
+    font-weight: 800;
+    animation: colorchange 10s infinite ease-in-out;
+
+}
+@keyframes colorchange {
+    0% {
+      color: blue;
+    }
+    50% {
+      color: purple;
+      text-shadow: 2px solid #b8860b ;
+    }
+    100% {
+      color: blue;
+    }
+  }
+button
+{
+    background-color: #b8860b;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 15px;
+}
+
+label
+{
+    color: #b8860b;
+    font-weight: 800;
+}
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logincontainer
+{
+    height: 100vh;
+    background-color:springgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
